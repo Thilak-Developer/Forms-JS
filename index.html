@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Metadata -->
+    <meta name="description" content="Forms">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.js">
+</head>
+
+<body>
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <div>
+    <form class="aa" name="RegForm" action="/submit.php" onsubmit="return formValidate()" method="post">
+        <p>Name: <input type="text" size="65" name="Name" /></p>
+        <br />
+        <p>Address: <input type="text" size="65" name="Address" />
+        </p>
+        <br />
+        <p>E-mail Address: <input type="text" size="65" name="EMail" /></p>
+        <br />
+        <p>Password: <input type="text" size="65" name="Password" /></p>
+        <br />
+        <p>Telephone: <input type="text" size="65" name="Telephone" /></p>
+        <br />
+
+        <p>
+            SELECT YOUR COURSE
+            <select type="text" value="" name="Subject">
+                <option>BTECH</option>
+                <option>BBA</option>
+                <option>BCA</option>
+                <option>B.COM</option>
+            </select>
+        </p>
+        <br />
+        <br />
+        <p>Comments: <textarea cols="55" name="Comment"> </textarea></p>
+        <p>
+            <input type="submit" value="send" name="Submit" />
+            <input type="reset" value="Reset" name="Reset" />
+        </p>
+    </form>
+</div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
